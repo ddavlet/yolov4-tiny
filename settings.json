@@ -2,9 +2,9 @@
   "darkhelp": {    
     "lib":{            
       "network": {
-        "cfg": "/content/weights/yolov4-tiny.cfg",
-        "names": "/content/weights/yolov4-tiny.names",
-        "weights": "/content/weights/yolov4-tiny.weights"
+        "cfg": "/content/weights/yolov4-tiny/yolov4-tiny.cfg",
+        "names": "/content/weights/yolov4-tiny/yolov4-tiny.names",
+        "weights": "/content/weights/yolov4-tiny/yolov4-tiny.weights"
       },
       "settings": {
         "annotation": {
