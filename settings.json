@@ -1,0 +1,26 @@
+{    
+  "darkhelp": {    
+    "lib":{            
+      "network": {
+        "cfg": "/content/weights/yolov4-tiny.cfg",
+        "names": "/content/weights/yolov4-tiny.names",
+        "weights": "/content/weights/yolov4-tiny.weights"
+      },
+      "settings": {
+        "annotation": {
+          "auto_hide_labels": false
+        }
+      }        
+    },
+    "server": {
+      "settings": {
+        "save_annotated_image": true,
+        "exit_if_idle":true,
+        "idle_time_in_seconds":600,
+        "save_json_results":true,
+        "input_directory": "/content/input",
+        "output_directory": "/content/output"
+        }
+    }
+  }
+}
